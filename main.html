@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>QuickerAPI</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <nav class="navbar" >
+                <ul>
+                    <div>
+                        <li><a class="links" href="#">Documentation</a></li>
+                        <li><a class="links href="#">Plans</a></li>
+                        <li><a class="links href="#">Get Started</a></li>
+                    </div>
+                    
+                    <li><a class="login-btn" href="#">Login</a></li>
+
+                    
+                </ul>
+            </nav>
+
+            <a href="#" onclick="menuShow()"><img class='hamburger' src="Images/HamBurger.png" alt="Hamburger menu"></a>
+
+            <div class="header-cont">
+                <div class="hero-col">
+                    <h1 class="text1" >Makeing the future of Data</h1>
+                    <h1 class="text2" >more Efficient.</h1>
+                    <h1 class="text3" >The Quicker API</h1>
+
+                    
+                    <hr>
+                </div>
+
+                <div class="hero-img">
+                    <img class="hero-img" src="Images/HeroImg.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="plan-sec">
+        <div class="container">
+            <div class="content">
+                <h1 class="cover-text" >Choose a plan thats right for you!</h1>
+                
+
+                <div class="plan-row">
+                    
+                    <div class="plan">
+                        <h3>Starter</h3>
+                        <h1 class="pricing-text" >$5/mo</h1>
+                        <h4>1200 Requests</h4>
+                        <h4>Stock Data</h4>
+                        <h4>Limited support</h4>
+                        <a class="sign-up"  href="#">Select</a>
+                    </div>
+
+                    <div class="plan">
+                        <h3>Basic</h3>
+                        <h1 class="pricing-text" >$15/mo</h1>
+                        <h4>5000 Requests</h4>
+                        <h4>Enriched Data</h4>
+                        <h4>Email support</h4>
+                        <a class="sign-up"  href="#">Select</a>
+                    </div>
+
+                    <div class="plan">
+                        <h3>Pro</h3>
+                        <h1 class="pricing-text" >$25/mo</h1>
+                        <h4>Infinite Requests</h4>
+                        <h4>Enriched Data</h4>
+                        <h4>Email support</h4>
+                        <a class="sign-up"  href="#">Select</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="get-started">
+        <div class="container">
+            <div class="content2">
+
+                <div class="text-col">
+                    <h1>QuickerAPI Quick Start</h1>
+
+                    <div class="wrapper" >
+                        <img class="bullet-img" src="Images/BulletImg.png" alt="bullet point image" width="45px" height="45px">
+
+                        <div class="bullet-col">
+                            <h3 class="quick-text" >1. Create an account and get a free API key</h3>
+                            <h4>Creating an account is quite easy. Choose a payed or free plan and your API key will be enabled after a series of confirmation emails. </h4>
+                        </div>
+                    </div>
+
+                    <div class="wrapper" >
+                        <img class="bullet-img" src="Images/BulletImg.png" alt="bullet point image" width="45px" height="45px">
+    
+                        <div class="bullet-col">
+                            <h3 class="quick-text" >2. Make your first request</h3>
+                            <h4>No external library required. See our decumentation for request format.</h4>
+                        </div>
+                    </div>
+    
+                    <div class="wrapper" >
+                        <img class="bullet-img" src="Images/BulletImg.png" alt="bullet point image" width="45px" height="45px">
+    
+                        <div class="bullet-c  ol">
+                            <h3 class="quick-text" >3. Parse the response data</h3>
+                            <h4>The recieved response can then be parsed by your IDE's Json library. Your all set! Thanks for using QuickerAPI!</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <img class="hero-ils" src="Images/undraw_Choose_re_7d5a.png" alt="" width="500px" height="650" >
+            </div>
+        </div>
+    </section>
+
+    
+    <section>
+
+    </section>
+
+    <script>
+        function menuShow() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+                menu.style.visibility = "hidden";
+            } else {
+                menu.style.display = "block";
+                menu.style.visibility = "initial";
+            }
+        }
+    </script>
+
+   
+</body>
+</html>
