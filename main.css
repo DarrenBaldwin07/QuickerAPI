@@ -219,6 +219,52 @@ ul div {
     font-size: 13px;
 }
 
+.footer {
+    background: url("Images/Vector.png");
+    background-color: white;
+    width: 100%;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.log-hero {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.email-field {
+    padding: 15px 50px;
+    border-color: var(--clr-primary3);
+    border-radius: 25px;
+}
+
+.test-row {
+    margin-top: 50px;
+}
+
+::placeholder {
+    color: black;
+    font-size: 1.2em;
+    
+}
+
+.get-key {
+    text-decoration: none;
+    color: white;
+    background-color: var(--clr-primary);
+    padding: 15px 50px;
+    border-radius: 25px;
+    min-width: 200px;
+    margin-left: 35px;
+}
+
+
+
 /* For mobile sizes - and Ipads */
 
 @media only screen and (max-width: 800px) {
@@ -257,6 +303,11 @@ ul div {
     .hero-img {
         width: 320px;
         
+    }
+
+    .hero-ils {
+        max-height: 400px;
+        max-width: 400px;
     }
 
     .cover-text {
