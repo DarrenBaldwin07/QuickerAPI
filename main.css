@@ -7,6 +7,7 @@
     --clr-primary: #3CA1FF;
     --clr-primary2: #2D2D2D;
     --clr-primary3: #001C45;
+    --container-width: 126rem;
     
 }
 
@@ -43,8 +44,10 @@ li {
 
 
 .container {
-    padding-left: 15%;
-    padding-right: 15%;
+    max-width: var(--container-width);
+    margin: 0 auto; 
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .navbar {
