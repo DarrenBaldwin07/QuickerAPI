@@ -229,12 +229,16 @@ ul div {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    
 }
 
 
 .log-hero {
     max-width: 400px;
     max-height: 400px;
+    margin: 20px;
+    z-index: 1;
 }
 
 .email-field {
@@ -244,7 +248,10 @@ ul div {
 }
 
 .test-row {
+    
     margin-top: 50px;
+    min-width: 500px;
+    
 }
 
 ::placeholder {
@@ -256,12 +263,19 @@ ul div {
 .get-key {
     text-decoration: none;
     color: white;
-    background-color: var(--clr-primary);
+    background-color: var(--clr-primary3);
     padding: 15px 50px;
     border-radius: 25px;
     min-width: 200px;
     margin-left: 35px;
 }
+
+
+.right-col {
+    z-index: 2;
+    margin-bottom: 3.5rem;
+}
+
 
 
 
@@ -328,6 +342,54 @@ ul div {
         margin-top: 20px;
     }
 
+    .content3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    .right-col .footer-text{
+        font-size: 15px;
+    }
+
+    .right-col .footer-text2{
+        font-size: 10px;
+    }
+
+
+    
+    .hero-ils {
+        display: none;
+    }
+    
+
+    .wrapper {
+        width: 300px;
+    }
+
+
+    .text-col h1 {
+        font-size: 1.2rem;
+    }
+
+    .test-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 275px;
+       
+    }
+
+    .get-key {
+        margin: 20px;
+    }
+
+    
+  
+
     
 }
 
@@ -359,6 +421,14 @@ ul div {
         margin-left: 95%;
         margin-top: 20px;
     }
+
+    .log-hero {
+        max-width: 275px;
+        max-height: 275px;
+    }
+
+    
+    
 
 }
 
