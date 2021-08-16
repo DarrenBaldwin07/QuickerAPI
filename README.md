@@ -3,3 +3,4 @@
 Simplistic and fully responsive Website design - (HTML, CSS, and some JavaScript)
 
 Live Link: https://devd0.github.io/QuickerAPI/
+Illustration creds: https://undraw.co
