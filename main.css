@@ -24,6 +24,12 @@ body {
     background: var(--clr-primary2)
 }
 
+.links {
+    transition: 0.3s;
+}
+
+
+
 nav .links:hover {
     cursor: pointer;
     background-color: #7EC1FF;
