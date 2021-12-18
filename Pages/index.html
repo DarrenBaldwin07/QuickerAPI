@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../src/main.css">
     <title>QuickerAPI</title>
 </head>
 <body>
@@ -25,7 +25,7 @@
                 </ul>
             </nav>
 
-            <a href="#" onclick="menuShow()"><img class='hamburger' src="Images/HamBurger.png" alt="Hamburger menu"></a>
+            <a href="#"><img class='hamburger' src="../Images/HamBurger.png" alt="Hamburger menu"></a>
 
             <div class="header-cont">
                 <div class="hero-col">
@@ -38,7 +38,7 @@
                 </div>
 
                 <div class="hero-img">
-                    <img class="hero-img" src="Images/HeroImg.png" alt="">
+                    <img class="hero-img" src="../Images/HeroImg.png" alt="">
                 </div>
                 
             </div>
@@ -95,7 +95,7 @@
                     <h1>QuickerAPI Quick Start</h1>
 
                     <div class="wrapper" >
-                        <img class="bullet-img" src="Images/BulletImg.png" alt="bullet point image" width="45px" height="45px">
+                        <img class="bullet-img" src="../Images/BulletImg.png" alt="bullet point image" width="45px" height="45px">
 
                         <div class="bullet-col">
                             <h3 class="quick-text" >1. Create an account and get a free API key</h3>
@@ -104,7 +104,7 @@
                     </div>
 
                     <div class="wrapper" >
-                        <img class="bullet-img" src="Images/BulletImg.png" alt="bullet point image" width="45px" height="45px">
+                        <img class="bullet-img" src="../Images/BulletImg.png" alt="bullet point image" width="45px" height="45px">
     
                         <div class="bullet-col">
                             <h3 class="quick-text" >2. Make your first request</h3>
@@ -113,7 +113,7 @@
                     </div>
     
                     <div class="wrapper" >
-                        <img class="bullet-img" src="Images/BulletImg.png" alt="bullet point image" width="45px" height="45px">
+                        <img class="bullet-img" src="../Images/BulletImg.png" alt="bullet point image" width="45px" height="45px">
     
                         <div class="bullet-c  ol">
                             <h3 class="quick-text" >3. Parse the response data</h3>
@@ -122,7 +122,7 @@
                     </div>
                 </div>
 
-                <img class="hero-ils" src="Images/undraw_Choose_re_7d5a.png" alt="" width="500px" height="650" >
+                <img class="hero-ils" src="../Images/undraw_Choose_re_7d5a.png" alt="" width="500px" height="650" >
             </div>
         </div>
     </section>
@@ -148,19 +148,6 @@
         </div>
     </section>
 
-    <script>
-        function menuShow() {
-            var menu = document.getElementById("menu");
-            if (menu.style.display === "block") {
-                menu.style.display = "none";
-                menu.style.visibility = "hidden";
-            } else {
-                menu.style.display = "block";
-                menu.style.visibility = "initial";
-            }
-        }
-    </script>
-
-   
+    <script src='../src/main.js'></script>
 </body>
 </html>
