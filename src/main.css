@@ -288,6 +288,7 @@ ul div {
     margin-top: 1em;
     border-radius: 2em;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    z-index: 20;
 }
 
 .nav2 .links2{
@@ -473,10 +474,6 @@ ul div {
         max-width: 275px;
         max-height: 275px;
     }
-
-    
-    
-
 }
 
 
