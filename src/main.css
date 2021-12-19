@@ -18,13 +18,14 @@
 body {
     font-family: 'Roboto Mono';
     line-height: 1.7;
-    overflow-x: hidden;
     background: var(--clr-primary2)
 }
 
 .links {
     transition: 0.3s;
 }
+
+
 
 
 
@@ -277,10 +278,41 @@ ul div {
     margin-left: 35px;
 }
 
+.nav2 {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    right: 1em;
+    background-color: white;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 2em;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav2 .links2{
+    color: var(--clr-primary);
+    transition: 0.3s;
+}
+
+.nav2 .links2:hover {
+    cursor: pointer;
+    background-color: #7EC1FF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
 
 .right-col {
     z-index: 2;
     margin-bottom: 3.5rem;
+}
+
+.showNav {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -346,7 +378,6 @@ ul div {
 
     .hamburger {
         display: block;
-        margin-top: 20px;
     }
 
     .content3 {
@@ -393,11 +424,19 @@ ul div {
     .get-key {
         margin: 20px;
     }
+ 
+}
 
-    
-  
 
-    
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    .nav2 {
+        display: none !important;
+
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -407,6 +446,7 @@ ul div {
         flex-direction: column;
         align-items: center;
    }
+
 
    
    .text-col{ 
